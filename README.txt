@@ -1,0 +1,1 @@
+wsimport -p client -keep http://localhost:8080/lolservice?wsdl
