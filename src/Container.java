@@ -1,6 +1,6 @@
 import javax.xml.ws.Endpoint;
 
-import services.LolService;
+import server.LolService;
 
 public class Container {
 
