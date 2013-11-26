@@ -6,6 +6,6 @@ public class Container {
 
     public static void main(String[] args) {
         LolService lolService = new LolService();
-        Endpoint.publish("http://localhost:8080/lolservice", lolService);
+        Endpoint.publish("http://0.0.0.0:8080/lolservice", lolService);
     }
 }
